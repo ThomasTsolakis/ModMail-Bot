@@ -70,7 +70,7 @@ console.log(`
 ██║╚██╔╝██║██║░░██║██║░░██║██║╚██╔╝██║██╔══██║██║██║░░░░░
 ██║░╚═╝░██║╚█████╔╝██████╔╝██║░╚═╝░██║██║░░██║██║███████╗
 ╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝╚══════╝
-`.underline.blue + `version ${projectVersion}, by T.F.A#7524.
+`.underline.blue + `version ${projectVersion}, by .thomastts.
 `.underline.cyan);
 
 client.login(config.client.token || process.env.CLIENT_TOKEN).catch((e) => {
